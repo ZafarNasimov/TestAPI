@@ -1,0 +1,15 @@
+Часть 1:
+Заголовок - 2)//h1[@class='header__title']
+Кнопка для закрытия даты вылета - 3)//button[contains(@class,'close')]
+Кнопка для поиска билетов - 1)//button[contains(@class,'form-submit')]
+Кнопка/ссылка составления сложного маршрута - 2)//a[@data-test-id="multiway-link"]
+
+Часть 2:
+Элемент с актуальной "сегодняшней" датой - //div[contains(@class,'selected today') and contains(@class, 'calendar__day-cell')]
+Элемент с конкретной датой текущего месяца - //div[@aria-label='Tue Jul 05 2022']
+Кнопка для поиска отелей - //a[@class='form-tabs__link' and @href='#hotel']
+Кнопка для смены валюты - //button[@class='WOSd5xnQhHi_alYhHix8']
+Логотип - //*[local-name()='svg'][contains(@class,'aviasalesSign')]
+Кнопка изменения направления - //div[@data-test-id='swap-places']
+Иконка профиля - //div[@class='IO3vFbULAgDiOca_LaHJ']
+Кнопка профиля - //div[text()='Профиль']
